@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c0f1109b59be48838bb44b95ace6483a",
+    "hash": "b454f6de8812a88b8e023afd3e101203",
     "packages": [
         {
             "name": "cartalyst/sentry",
@@ -377,6 +377,44 @@
             "time": "2013-10-09 04:20:00"
         },
         {
+            "name": "larapress-cms/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larapress-cms/core.git",
+                "reference": "a653e7a1b89ed01295898d3e9a62d777fbc1c799"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larapress-cms/core/zipball/a653e7a1b89ed01295898d3e9a62d777fbc1c799",
+                "reference": "a653e7a1b89ed01295898d3e9a62d777fbc1c799",
+                "shasum": ""
+            },
+            "require": {
+                "cartalyst/sentry": "2.1.*",
+                "greggilbert/recaptcha": "1.0.*",
+                "illuminate/support": "4.1.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Larapress": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel 4 CMS. (core)",
+            "keywords": [
+                "cms",
+                "larapress",
+                "laravel"
+            ],
+            "time": "2014-05-17 22:10:01"
+        },
+        {
             "name": "laravel/framework",
             "version": "v4.1.28",
             "source": {
@@ -562,16 +600,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0"
+                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/21c4cb4301969c7d85aee8a62eefdfa881413af0",
-                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b94de7192b01d0e80794eae984dcc773220ab0dc",
+                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc",
                 "shasum": ""
             },
             "require": {
@@ -604,7 +642,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-01-07 05:10:44"
+            "time": "2014-05-13 02:29:30"
         },
         {
             "name": "nikic/php-parser",
@@ -2961,9 +2999,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "larapress-cms/core": 20
+    },
     "platform": [
 
     ],

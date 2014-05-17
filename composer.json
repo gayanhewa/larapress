@@ -5,8 +5,7 @@
     "license": "MIT",
     "require": {
         "laravel/framework": "4.1.*",
-        "cartalyst/sentry": "2.1.*",
-        "greggilbert/recaptcha": "1.0.*"
+        "larapress-cms/core": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "1.*",

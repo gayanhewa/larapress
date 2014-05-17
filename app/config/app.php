@@ -120,14 +120,7 @@ return array(
         'Illuminate\View\ViewServiceProvider',
         'Illuminate\Workbench\WorkbenchServiceProvider',
 
-        'Cartalyst\Sentry\SentryServiceProvider',
-        'Greggilbert\Recaptcha\RecaptchaServiceProvider',
-
-        'Larapress\Providers\MockablyServiceProvider',
-        'Larapress\Providers\PermissionServiceProvider',
-        'Larapress\Providers\HelpersServiceProvider',
-        'Larapress\Providers\NarratorServiceProvider',
-        'Larapress\Providers\CaptchaServiceProvider',
+        'Larapress\Providers\LarapressServiceProvider',
 
     ),
 
@@ -194,14 +187,6 @@ return array(
         'URL'               => 'Illuminate\Support\Facades\URL',
         'Validator'         => 'Illuminate\Support\Facades\Validator',
         'View'              => 'Illuminate\Support\Facades\View',
-
-        'Sentry'            => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
-
-        'Mockably'          => 'Larapress\Facades\Mockably',
-        'Permission'        => 'Larapress\Facades\Permission',
-        'Helpers'           => 'Larapress\Facades\Helpers',
-        'Narrator'          => 'Larapress\Facades\Narrator',
-        'Captcha'           => 'Larapress\Facades\Captcha',
 
     ),
 
