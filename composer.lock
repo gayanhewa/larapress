@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b454f6de8812a88b8e023afd3e101203",
+    "hash": "d97b6a5aa2b3077b2b4bd47ff638b013",
     "packages": [
         {
             "name": "cartalyst/sentry",
@@ -382,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larapress-cms/core.git",
-                "reference": "a653e7a1b89ed01295898d3e9a62d777fbc1c799"
+                "reference": "8144eb42a0ac83baec637002df12cf0ae202cff1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larapress-cms/core/zipball/a653e7a1b89ed01295898d3e9a62d777fbc1c799",
-                "reference": "a653e7a1b89ed01295898d3e9a62d777fbc1c799",
+                "url": "https://api.github.com/repos/larapress-cms/core/zipball/8144eb42a0ac83baec637002df12cf0ae202cff1",
+                "reference": "8144eb42a0ac83baec637002df12cf0ae202cff1",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +412,7 @@
                 "larapress",
                 "laravel"
             ],
-            "time": "2014-05-17 22:10:01"
+            "time": "2014-05-18 15:24:03"
         },
         {
             "name": "laravel/framework",

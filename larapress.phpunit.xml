@@ -12,17 +12,17 @@
     >
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./app/Larapress</directory>
+            <directory suffix=".php">./vendor/larapress-cms/core/src/Larapress</directory>
             <exclude>
-                <directory suffix=".php">./app/Larapress/Exceptions</directory>
-                <directory suffix=".php">./app/Larapress/Facades</directory>
-                <directory suffix=".php">./app/Larapress/Providers</directory>
+                <directory suffix=".php">./vendor/larapress-cms/core/src/Larapress/Exceptions</directory>
+                <directory suffix=".php">./vendor/larapress-cms/core/src/Larapress/Facades</directory>
+                <directory suffix=".php">./vendor/larapress-cms/core/src/Larapress/Providers</directory>
             </exclude>
         </whitelist>
     </filter>
     <testsuites>
         <testsuite name="Application Test Suite">
-            <directory>./app/Larapress/Tests/</directory>
+            <directory>./vendor/larapress-cms/core/src/Larapress/Tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
