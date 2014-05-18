@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d97b6a5aa2b3077b2b4bd47ff638b013",
+    "hash": "effcd53af51213d07fe189accb685220",
     "packages": [
         {
             "name": "cartalyst/sentry",
@@ -378,16 +378,16 @@
         },
         {
             "name": "larapress-cms/core",
-            "version": "dev-master",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larapress-cms/core.git",
-                "reference": "8144eb42a0ac83baec637002df12cf0ae202cff1"
+                "reference": "2f984d39e0c99431fe48a05ce0a5be95cd2f5805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larapress-cms/core/zipball/8144eb42a0ac83baec637002df12cf0ae202cff1",
-                "reference": "8144eb42a0ac83baec637002df12cf0ae202cff1",
+                "url": "https://api.github.com/repos/larapress-cms/core/zipball/2f984d39e0c99431fe48a05ce0a5be95cd2f5805",
+                "reference": "2f984d39e0c99431fe48a05ce0a5be95cd2f5805",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +412,7 @@
                 "larapress",
                 "laravel"
             ],
-            "time": "2014-05-18 15:24:03"
+            "time": "2014-05-18 16:16:11"
         },
         {
             "name": "laravel/framework",
@@ -2999,9 +2999,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "larapress-cms/core": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
